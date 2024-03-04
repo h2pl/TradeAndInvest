@@ -1,0 +1,24 @@
+# 量化交易与数据处理相关库
+backtrader==1.9.78.123 # 或更高版本，用于策略开发和回测
+yfinance==0.1.68     # 获取Yahoo Finance数据，也可替换为其他港股美股数据源库
+pandas==1.4.3        # 数据处理和分析库
+numpy==1.22.3        # 数值计算库
+
+# 实盘交易API对接（以IB API为例）
+ibapi>=9.75.1       # Interactive Brokers官方API库
+
+# 可视化和报告生成
+matplotlib==3.5.1   # 数据可视化库
+seaborn==0.11.2     # 基于matplotlib的数据可视化扩展库
+
+# 其他工具库和依赖
+requests==2.31.0    # HTTP请求库，用于网络数据获取
+sqlalchemy==1.4.31  # 对象关系映射库，用于数据库操作
+python-dotenv==0.19.2  # 环境变量管理库，用于读取敏感配置信息
+
+# 风控及统计分析
+scipy==1.8.0         # 科学计算库，包含一些风控所需的统计函数
+riskfolio-lib==0.2.3  # 风险分析库（可选）
+
+# 单元测试
+pytest==6.2.5        # 测试框架
